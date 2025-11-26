@@ -1,0 +1,29 @@
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Large images (keep sample PNGs)
+# *.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

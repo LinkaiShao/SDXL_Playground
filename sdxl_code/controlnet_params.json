@@ -1,0 +1,55 @@
+{
+  "controlnet_1_balanced": {
+    "desc": "Balanced preservation and transformation",
+    "strength": 0.45,
+    "controlnet_conditioning_scale": 0.70,
+    "guidance_scale": 7.0,
+    "prompt": "professional e-commerce catalog photography, perfectly pressed wrinkle-free garment, pure white seamless background, even studio lighting, smooth fabric",
+    "negative_prompt": "wrinkles, creases, folds, rumpled, gray background, colored background, shadows on background, uneven lighting, texture loss"
+  },
+
+  "controlnet_2_max_preservation": {
+    "desc": "Maximum appearance preservation, minimal transformation",
+    "strength": 0.35,
+    "controlnet_conditioning_scale": 0.75,
+    "guidance_scale": 6.5,
+    "prompt": "professional catalog photography, wrinkle-free garment, pure white background, studio lighting",
+    "negative_prompt": "wrinkles, creases, gray background, texture change, color change"
+  },
+
+  "controlnet_3_more_freedom": {
+    "desc": "More freedom to remove wrinkles, may vary appearance slightly",
+    "strength": 0.55,
+    "controlnet_conditioning_scale": 0.65,
+    "guidance_scale": 7.5,
+    "prompt": "professional e-commerce catalog photography, perfectly smooth wrinkle-free garment, pure white seamless background, even studio lighting",
+    "negative_prompt": "wrinkles, creases, folds, gray background, colored background, shadows, uneven lighting"
+  },
+
+  "controlnet_4_strict_structure": {
+    "desc": "Very strict edge following, best appearance match",
+    "strength": 0.40,
+    "controlnet_conditioning_scale": 0.80,
+    "guidance_scale": 7.0,
+    "prompt": "professional catalog photo, wrinkle-free, white background, studio lighting",
+    "negative_prompt": "wrinkles, folds, gray background, shadows"
+  },
+
+  "controlnet_5_aggressive_smoothing": {
+    "desc": "Aggressive wrinkle removal, appearance may shift",
+    "strength": 0.60,
+    "controlnet_conditioning_scale": 0.60,
+    "guidance_scale": 8.0,
+    "prompt": "professional e-commerce catalog photography, perfectly smooth wrinkle-free pressed garment, pure white seamless background, even studio lighting, flawless fabric",
+    "negative_prompt": "any wrinkles, creases, folds, rumpled fabric, gray background, colored background, shadows on background, uneven lighting, texture artifacts"
+  },
+
+  "controlnet_6_subtle": {
+    "desc": "Very subtle changes, almost identical to input",
+    "strength": 0.30,
+    "controlnet_conditioning_scale": 0.75,
+    "guidance_scale": 6.0,
+    "prompt": "catalog photography, smooth fabric, white background",
+    "negative_prompt": "wrinkles, gray background, shadows"
+  }
+}

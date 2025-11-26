@@ -1,0 +1,14 @@
+{
+  "test_param": {
+    "desc": "Minimal mask extension - tight fit",
+    "mask_dilate": 3,
+    "feather": 2.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": "",
+    "neg_suffix": ""
+  }
+}

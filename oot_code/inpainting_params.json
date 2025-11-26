@@ -1,0 +1,131 @@
+{
+  "param_set_1_original": {
+    "desc": "Original settings - had white aura but otherwise worked",
+    "mask_dilate": 15,
+    "feather": 6.0,
+    "shadow_preprocess": true,
+    "lighten_factor": 1.2,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": ", light gray background",
+    "neg_suffix": ", white aura, bright halo"
+  },
+
+  "param_set_2_conservative": {
+    "desc": "Minimal mask extension - tight fit",
+    "mask_dilate": 3,
+    "feather": 2.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": "",
+    "neg_suffix": ""
+  },
+
+  "param_set_3_moderate": {
+    "desc": "Balanced approach",
+    "mask_dilate": 8,
+    "feather": 4.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": ", light gray background",
+    "neg_suffix": ", white edges"
+  },
+
+  "param_set_4_aggressive_clean": {
+    "desc": "Large mask, no preprocessing",
+    "mask_dilate": 12,
+    "feather": 5.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": ", clean edges",
+    "neg_suffix": ", white aura, glowing"
+  },
+
+  "param_set_5_lower_strength": {
+    "desc": "Lower strength for context preservation",
+    "mask_dilate": 10,
+    "feather": 5.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.85,
+    "prompt_suffix": "",
+    "neg_suffix": ""
+  },
+
+  "param_set_6_high_guidance": {
+    "desc": "High guidance for prompt control",
+    "mask_dilate": 10,
+    "feather": 4.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 12.0,
+    "strength": 0.999,
+    "prompt_suffix": ", precise edges, no halos",
+    "neg_suffix": ", white aura, bright halo, glowing outline"
+  },
+
+  "param_set_7_preprocessing_only": {
+    "desc": "Test preprocessing in isolation",
+    "mask_dilate": 10,
+    "feather": 5.0,
+    "shadow_preprocess": true,
+    "lighten_factor": 1.15,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": "",
+    "neg_suffix": ""
+  },
+
+  "param_set_8_more_steps": {
+    "desc": "Higher quality with more denoising",
+    "mask_dilate": 10,
+    "feather": 5.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 75,
+    "guidance": 8.0,
+    "strength": 0.999,
+    "prompt_suffix": ", clean edges",
+    "neg_suffix": ", white aura"
+  },
+
+  "param_set_9_img2img_mode": {
+    "desc": "Simulate img2img with heavy feather and low strength",
+    "mask_dilate": 12,
+    "feather": 8.0,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 6.0,
+    "strength": 0.75,
+    "prompt_suffix": "",
+    "neg_suffix": ""
+  },
+
+  "param_set_10_minimal_dilate": {
+    "desc": "Minimal dilation with moderate feather",
+    "mask_dilate": 5,
+    "feather": 3.5,
+    "shadow_preprocess": false,
+    "lighten_factor": 1.0,
+    "steps": 50,
+    "guidance": 7.5,
+    "strength": 0.999,
+    "prompt_suffix": ", light gray background",
+    "neg_suffix": ", white edges, bright halo"
+  }
+}
