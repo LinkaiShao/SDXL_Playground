@@ -1,0 +1,16 @@
+Parameter Set: test_param
+Description: Minimal mask extension - tight fit
+Timestamp: 2025-10-14 17:41:21.573574
+
+{
+  "desc": "Minimal mask extension - tight fit",
+  "mask_dilate": 3,
+  "feather": 2.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.999,
+  "prompt_suffix": "",
+  "neg_suffix": ""
+}

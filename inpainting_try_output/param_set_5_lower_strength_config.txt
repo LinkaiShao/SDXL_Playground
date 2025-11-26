@@ -1,0 +1,16 @@
+Parameter Set: param_set_5_lower_strength
+Description: Lower strength for context preservation
+Timestamp: 2025-10-14 16:52:41.191531
+
+{
+  "desc": "Lower strength for context preservation",
+  "mask_dilate": 10,
+  "feather": 5.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.85,
+  "prompt_suffix": "",
+  "neg_suffix": ""
+}

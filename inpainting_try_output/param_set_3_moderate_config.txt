@@ -1,0 +1,16 @@
+Parameter Set: param_set_3_moderate
+Description: Balanced approach
+Timestamp: 2025-10-14 16:52:33.006651
+
+{
+  "desc": "Balanced approach",
+  "mask_dilate": 8,
+  "feather": 4.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.999,
+  "prompt_suffix": ", light gray background",
+  "neg_suffix": ", white edges"
+}

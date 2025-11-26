@@ -1,0 +1,16 @@
+Parameter Set: param_set_10_minimal_dilate
+Description: Minimal dilation with moderate feather
+Timestamp: 2025-10-14 16:53:04.005393
+
+{
+  "desc": "Minimal dilation with moderate feather",
+  "mask_dilate": 5,
+  "feather": 3.5,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.999,
+  "prompt_suffix": ", light gray background",
+  "neg_suffix": ", white edges, bright halo"
+}

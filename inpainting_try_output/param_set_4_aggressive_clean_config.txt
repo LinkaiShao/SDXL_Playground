@@ -1,0 +1,16 @@
+Parameter Set: param_set_4_aggressive_clean
+Description: Large mask, no preprocessing
+Timestamp: 2025-10-14 16:52:37.373854
+
+{
+  "desc": "Large mask, no preprocessing",
+  "mask_dilate": 12,
+  "feather": 5.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.999,
+  "prompt_suffix": ", clean edges",
+  "neg_suffix": ", white aura, glowing"
+}

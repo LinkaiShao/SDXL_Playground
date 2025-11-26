@@ -1,0 +1,16 @@
+Parameter Set: param_set_7_preprocessing_only
+Description: Test preprocessing in isolation
+Timestamp: 2025-10-14 16:52:49.915645
+
+{
+  "desc": "Test preprocessing in isolation",
+  "mask_dilate": 10,
+  "feather": 5.0,
+  "shadow_preprocess": true,
+  "lighten_factor": 1.15,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.999,
+  "prompt_suffix": "",
+  "neg_suffix": ""
+}

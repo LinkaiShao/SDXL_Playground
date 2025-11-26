@@ -1,0 +1,16 @@
+Parameter Set: param_set_1_original
+Description: Original settings - had white aura but otherwise worked
+Timestamp: 2025-10-14 16:52:24.254642
+
+{
+  "desc": "Original settings - had white aura but otherwise worked",
+  "mask_dilate": 15,
+  "feather": 6.0,
+  "shadow_preprocess": true,
+  "lighten_factor": 1.2,
+  "steps": 50,
+  "guidance": 7.5,
+  "strength": 0.999,
+  "prompt_suffix": ", light gray background",
+  "neg_suffix": ", white aura, bright halo"
+}

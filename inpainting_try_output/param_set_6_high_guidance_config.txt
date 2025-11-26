@@ -1,0 +1,16 @@
+Parameter Set: param_set_6_high_guidance
+Description: High guidance for prompt control
+Timestamp: 2025-10-14 16:52:45.549027
+
+{
+  "desc": "High guidance for prompt control",
+  "mask_dilate": 10,
+  "feather": 4.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 12.0,
+  "strength": 0.999,
+  "prompt_suffix": ", precise edges, no halos",
+  "neg_suffix": ", white aura, bright halo, glowing outline"
+}

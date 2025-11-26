@@ -1,0 +1,16 @@
+Parameter Set: param_set_8_more_steps
+Description: Higher quality with more denoising
+Timestamp: 2025-10-14 16:52:56.204465
+
+{
+  "desc": "Higher quality with more denoising",
+  "mask_dilate": 10,
+  "feather": 5.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 75,
+  "guidance": 8.0,
+  "strength": 0.999,
+  "prompt_suffix": ", clean edges",
+  "neg_suffix": ", white aura"
+}

@@ -1,0 +1,16 @@
+Parameter Set: param_set_9_img2img_mode
+Description: Simulate img2img with heavy feather and low strength
+Timestamp: 2025-10-14 16:52:59.633781
+
+{
+  "desc": "Simulate img2img with heavy feather and low strength",
+  "mask_dilate": 12,
+  "feather": 8.0,
+  "shadow_preprocess": false,
+  "lighten_factor": 1.0,
+  "steps": 50,
+  "guidance": 6.0,
+  "strength": 0.75,
+  "prompt_suffix": "",
+  "neg_suffix": ""
+}
